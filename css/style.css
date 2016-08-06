@@ -1,0 +1,140 @@
+#cj {
+	position: fixed;
+	bottom: 1em;
+}
+#fs-title {
+	color: #FF6C40;
+	display: block;
+	font-size: 5em;
+	font-family: Cambria;
+	margin: 3em auto;
+	text-align: center;
+	text-shadow: 1px 0 4px #47354C;
+}
+#fs-fondo {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+#fs-fw {
+	background: #A3F3F3;
+	color: #FFF;
+	border-radius: 100%;
+    box-shadow: 1px 2px 8px 1px #C1AF9F;
+    bottom: 0em;
+	cursor: pointer;
+	font-size: 1.3em;
+	opacity: 0.6;
+    padding: 1em;
+    position: absolute;
+    text-decoration: none;
+	text-shadow: 1px 2px 4px #212121;
+    transition: opacity 0.5s ease, background 0.8s ease;
+    z-index: 1000;
+}
+#fs-option {
+    cursor: pointer;
+    display: none;
+    left: 1.8em;
+    position: absolute;
+    top: -3.9em;
+    z-index: 1001;
+}
+#fs-str {
+	background: #FFF;
+	border-radius: 0 5em 5em 0;
+    border: 1px solid #C54C4C;
+    left: 4.5em;
+    outline: 0;
+    display: none;
+	padding: 0.5em;
+	position: absolute;
+	padding-left: 1.5em;
+    top: -3.5em;
+    transition: background 0.10s ease, border 0.12s ease, box-shadow 0.14s ease, width .16s ease;
+    width: 10px;
+    z-index: -1;
+}
+#fs-fw:hover {
+	background: #EC6060;
+	opacity: 1;
+}
+#fs-str:hover {
+	box-shadow: 0 0 6px 2px #D6D6D6;
+}
+#fs-str:focus {
+	background: #E2EFEB;
+	border: 1px solid #ABCDEF;
+	box-shadow: 0 0 2px 1px #ABCDEF;
+	width: 250px;
+}
+
+.extCode {
+    border-radius: 50%;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 0.7em;
+    font-weight: bold;
+    position: absolute;
+    padding: 0.6em;
+    height: 15px;
+    text-align: center;
+    transition: transform .10s ease;
+    width: 15px;
+}
+.extCode:hover {
+	transform: scale(1.1);
+}
+#fs-html {
+	background: #50A2E8;
+    top: -8.5em;
+}
+#fs-css {
+	background: #E66565;
+    left: 2.8em;
+    top: -8.8em;
+}
+#fs-js {
+	background: #C5BB42;
+    color: #FFF;
+	left: 5.4em;
+    top: -7.6em;
+}
+#fs-img {
+    background: #E88263;
+    color: #FFF;
+    top: -5.1em;
+    left: 7em;
+}
+#fs-msopc {
+	background: #537586;
+    color: #FFF;
+    top: -2.2em;
+    left: 6.6em;
+}
+#cj-1, #cj-2 {
+	display: none;
+}
+#fs-audio {
+	background: #61C4EA;
+    color: #FFF;
+    top: -2.2em;
+    left: 9.3em;
+}
+#fs-video {
+	background: #B94C65;
+    color: #FFF;
+    top: -2.2em;
+    left: 12.3em;
+}
+
+.fs-active {
+    border: 1px solid #50A2E8;
+    box-shadow: 0 0 5px 1px #FFF;
+    text-shadow: 1px 3px 2px #000;
+}
